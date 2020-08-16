@@ -1,4 +1,4 @@
-# Spotirial!
+# Spoterial!
 
 ## Spotify Material Design made with Angular
 
