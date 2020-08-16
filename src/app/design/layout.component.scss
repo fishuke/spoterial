@@ -1,0 +1,36 @@
+body{
+  background-color: #121212;
+}
+
+.header{
+  margin-bottom: 50px;
+}
+
+.content{
+  padding-right: 32px;
+  padding-left: 32px;
+  padding-top: 16px;
+  background-color: transparent;
+}
+
+app-header {
+  z-index: 9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+mat-sidenav {
+  height: 100%;
+  width: 232px;
+  padding-top: 24px;
+  background-color: rgba(0,0,0,.8);
+}
+mat-sidenav-container {
+  position: absolute;
+  background-color: #121212;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: calc(100%);
+}

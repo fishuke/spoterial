@@ -1,0 +1,53 @@
+
+mat-toolbar {
+  background-color: transparent;
+}
+
+:host {
+  * {
+    outline: none;
+  }
+
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+
+  app-logo {
+    cursor: pointer;
+  }
+
+  .mat-toolbar-row, .mat-toolbar-single-row {
+    height: 56px !important;
+  }
+}
+
+.nav-buttons-active {
+  color: #fff;
+  background-color: rgba(0, 0, 0, .7) !important;
+  margin-right: 16px;
+}
+
+.order-btn {
+  background-color: rgba(0, 0, 0, .7);
+  border: 1px solid hsla(0, 0%, 100%, .7);
+  padding: 8px 34px;
+  border-radius: 500px;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1.76px;
+}
+
+.profile-btn {
+  background-color: rgba(0, 0, 0, .7);
+  border: 0px;
+  margin-left: 16px;
+  border-radius: 23px;
+  height: 32px;
+  padding-left: 0px;
+
+  img {
+    color: white;
+    height: 28px;
+    width: 28px;
+  }
+}

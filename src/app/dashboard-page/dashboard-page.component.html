@@ -1,0 +1,37 @@
+<div class="content" fxLayout="row" fxLayout.xs="column" fxFlexFill>
+
+  <div class="section">
+        <div fxLayout="row">
+          <h2>
+            Kısayollar
+          </h2>
+          <div class="spacer"></div>
+
+
+          <h2 class="view-all">
+            Hepsini Gör
+          </h2>
+        </div>
+    <div fxLayout="row wrap"
+         fxLayout.lt-sm="column"
+         fxLayoutAlign="flex-start">
+      <div *ngFor="let song of songArray"
+           fxFlex.lt-md="0 1 calc(50% - 32px)"
+           fxFlex.lt-sm="100%">
+
+
+        <mat-card class="music-card">
+          <img
+            src="{{song.iconURL}}">
+
+          <mat-card-content>
+            <h3>{{song.title}}</h3>
+            <h5>~{{song.author}}</h5>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+
+  </div>
+
+</div>
