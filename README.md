@@ -2,6 +2,8 @@
 
 ## Spotify Material Design made with Angular
 
+![Thumbnail](./src/assets/img/thumbnail.png)
+
 I do not own any of spotify tradermark rights i just remake the design with angular material and made some changes on it.
 
 
